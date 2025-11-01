@@ -49,132 +49,13 @@
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** 18+ 
-- **pnpm** (recommended) or npm/yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd arkt2.0
-
-# Install dependencies
-pnpm install
-
-# Run the development server
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Quick Commands
-
-```bash
-# Development
-pnpm dev              # Start dev server with Turbopack
-pnpm dev:webpack      # Start dev server with Webpack
-
-# Building
-pnpm build            # Build for production
-pnpm start            # Start production server
-
-# Code Quality
-pnpm type-check       # TypeScript type checking
-pnpm lint             # ESLint
-pnpm check            # Type check + lint
-
-# Testing
-pnpm test             # Run Vitest tests
-pnpm test:watch       # Watch mode
-pnpm e2e              # Playwright E2E tests
-pnpm e2e:ui           # Playwright UI mode
-```
-
----
-
-## 🛠️ Tech Stack
-
-### Core Framework
-- **[Next.js 16](https://nextjs.org/)** - React framework with App Router
-- **[React 19](https://react.dev/)** - UI library
-- **[TypeScript 5.9](https://www.typescriptlang.org/)** - Type safety
-
-### Diagramming & Visualization
-- **[React Flow](https://xyflow.com/)** - Node-based diagram editor
-- **[RoughJS](https://roughjs.com/)** - Hand-drawn, sketchy graphics
-- **[ELK.js](https://github.com/kieler/elkjs)** - Automatic graph layout
-
-### Collaboration
-- **[Yjs](https://github.com/yjs/yjs)** - CRDT for conflict-free collaboration
-- **[y-webrtc](https://github.com/yjs/y-webrtc)** - WebRTC provider for real-time sync
-- **[y-indexeddb](https://github.com/yjs/y-indexeddb)** - Local persistence
-
-### AI & Integration
-- **[Vercel AI SDK](https://sdk.vercel.ai/)** - AI integrations
-- **[OpenAI](https://openai.com/)** - AI diagram generation (bring your own key)
-
-### UI & Styling
-- **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS
-- **[Radix UI](https://www.radix-ui.com/)** - Accessible component primitives
-- **[Lucide Icons](https://lucide.dev/)** - Beautiful icon library
-- **[Next Themes](https://github.com/pacocoursey/next-themes)** - Theme management
-
-### Development Tools
-- **[Playwright](https://playwright.dev/)** - E2E testing
-- **[Vitest](https://vitest.dev/)** - Unit testing
-- **[ESLint](https://eslint.org/)** - Code linting
-- **[TypeScript ESLint](https://typescript-eslint.io/)** - TypeScript linting
-
----
-
-## 📁 Project Structure
-
-```
-arkt2.0/
-├── src/
-│   ├── app/                    # Next.js App Router pages
-│   │   ├── design/            # Main diagram editor
-│   │   ├── about/             # About page
-│   │   ├── docs/              # Documentation pages
-│   │   └── ...
-│   ├── components/            # React components
-│   │   ├── nodes/             # Node types (ArktNode, Text, Freehand, etc.)
-│   │   ├── edges/             # Edge/connection components
-│   │   ├── controls/          # UI controls (color picker, font size, etc.)
-│   │   ├── yjs/               # Collaboration & sync logic
-│   │   └── ...
-│   ├── lib/                   # Utilities & shared code
-│   │   ├── seo/               # SEO utilities
-│   │   ├── tutorial/          # Tutorial system
-│   │   └── ...
-│   └── hooks/                 # Custom React hooks
-├── public/                    # Static assets
-├── e2e/                      # Playwright E2E tests
-└── scripts/                  # Build & utility scripts
-```
-
----
-
 ## 📚 Documentation
 
 ### Quick Links
 
-- **[Quick Start Guide](QUICK_START.md)** - Get up and running in 5 minutes
-- **[SEO Documentation](src/lib/seo/README.md)** - SEO implementation details
-- **[Tutorial System](src/lib/tutorial/README.md)** - Interactive tutorial features
-- **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Production deployment steps
-
-### Key Documentation Files
-
-- `QUICK_START.md` - 5-minute setup guide
-- `SEO_IMPLEMENTATION_GUIDE.md` - SEO optimization roadmap
-- `SEO_ACCEPTANCE_CRITERIA_SUMMARY.md` - SEO tracking & metrics
-- `IMPLEMENTATION_SUMMARY.md` - Feature implementation overview
+- **[Quick Start Guide](https://arkt.ink/docs/create-first-node)** - Get up and running in 5 minutes
+- **[Documentation](https://arkt.ink/docs)** - SEO implementation details
+- **[Tutorial](https://arkt.ink/learn)** - Interactive tutorial features
 
 ---
 
@@ -250,6 +131,6 @@ Built with amazing open-source projects:
 
 **Made with ❤️ by the Arkt team**
 
-[Report Bug](https://github.com/your-org/arkt2.0/issues) • [Request Feature](https://github.com/your-org/arkt2.0/issues)
+[Report Bug](https://github.com/goduu/arkt.ink/issues) • [Request Feature](https://github.com/goduu/arkt.ink/issues)
 
 </div>
