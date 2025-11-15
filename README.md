@@ -14,7 +14,7 @@
 
 **Arkt** is a powerful, free, and collaborative diagramming tool built for modern teams. Create multi-level diagrams, collaborate in real-time, and bring your ideas to life with an intuitive, sketch-style interface.
 
-[🚀 Getting Started](#-getting-started) • [📖 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack) • [📚 Documentation](#-documentation) • [🤝 Contributing](#-contributing)
+[🚀 Getting Started](https://arkt.ink/design) • [📖 Features](#-features)  • [📚 Documentation](#-documentation)
 
 </div>
 
@@ -54,8 +54,16 @@
 ### Quick Links
 
 - **[Quick Start Guide](https://arkt.ink/docs/create-first-node)** - Get up and running in 5 minutes
-- **[Documentation](https://arkt.ink/docs)** - SEO implementation details
+- **[Documentation](https://arkt.ink/docs)** - Documentation guides
 - **[Tutorial](https://arkt.ink/learn)** - Interactive tutorial features
+- **[Download App](https://arkt.ink/download)** - Download our PWA App
+- **[Features](https://arkt.ink/features)** - Check ou our main features
+- **[Design](https://arkt.ink/design)** - Start you diagram now for free
+- **[About](https://arkt.ink/about)** - About us
+- **[Privacy](https://arkt.ink/privacy)** - Check our privacy policy
+- **[Security](https://arkt.ink/security)** - Check our security policy
+
+
 
 ---
 
@@ -81,33 +89,6 @@
 - **Drill Down** - Click nodes (Alt+Click) to navigate into sub-diagrams
 - **Breadcrumbs** - Navigate back through diagram hierarchy
 - **Virtual Nodes** - Reference nodes from parent diagrams
-
----
-
-## 🤝 Contributing
-
-This is a private project. For internal contributors:
-
-1. Create a feature branch from `master`
-2. Make your changes with proper TypeScript types
-3. Ensure tests pass: `pnpm check && pnpm test`
-4. Submit a pull request with a clear description
-
-### Code Standards
-
-- **TypeScript** - Strict mode enabled, no `any` types
-- **React** - Functional components with hooks
-- **Styling** - Tailwind CSS utility classes
-- **Testing** - E2E tests for critical user flows
-
----
-
-## 🔒 Privacy & Security
-
-- **No Data Collection** - We don't track your diagrams
-- **Self-Hosted Collaboration** - Use your own signaling server
-- **OpenAI API Key** - Stored locally, never sent to our servers
-- **Local-First** - Your data is stored in your browser first
 
 ---
 
